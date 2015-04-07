@@ -23,7 +23,12 @@ Section Header Placeholders:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
+   $ heroku login
+   $ heroku create <app name>
+   $ git push heroku master
 
-* ...
+https://dwilliams-bloccit.herokuapp.com/ deployed to Heroku
+
+* 
 
 
