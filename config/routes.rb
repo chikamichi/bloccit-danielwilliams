@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  
+  resources :advertisements
+  # get 'advertisements/index'
+
+  # get 'advertisement/show'
+
   # get 'posts/index'
 
   # get 'posts/show'
@@ -15,10 +21,6 @@ Rails.application.routes.draw do
   # get 'welcome/contact'
   get 'contact' => 'welcome#contact'
 
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
-
-  # You can have the root of your site routed with "root"
   root 'welcome#index'
 
   # Example of regular route:
