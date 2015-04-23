@@ -1,5 +1,20 @@
 Rails.application.routes.draw do
   
+  resources :questions
+  # get 'question/new'
+
+  # get 'question/create'
+
+  # get 'question/update'
+
+  # get 'question/edit'
+
+  # get 'question/destroy'
+
+  # get 'question/index'
+
+  # get 'question/show'
+
   resources :advertisements
   # get 'advertisements/index'
 
