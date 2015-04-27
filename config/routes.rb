@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   
-<<<<<<< HEAD
   resources :questions
   # get 'question/new'
 
