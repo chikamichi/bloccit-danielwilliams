@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+<<<<<<< HEAD
   resources :questions
   # get 'question/new'
 
@@ -15,6 +16,8 @@ Rails.application.routes.draw do
 
   # get 'question/show'
 
+  devise_for :users
+  
   resources :advertisements
   # get 'advertisements/index'
 

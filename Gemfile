@@ -3,9 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
-# Use sqlite3 as the database for Active Record
-# gem 'sqlite3'
-# Use SCSS for stylesheets
+
 
  group :production do
    gem 'pg'
@@ -25,6 +23,7 @@ gem 'bootstrap-sass'
 gem 'pry-rails'
 
 gem 'faker'
+gem 'devise'
 
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
